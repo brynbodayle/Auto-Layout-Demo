@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O4R-ei-sJe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="a2L-Vz-bkB">
+            <objects>
+                <viewController id="dfh-DK-H00" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dlg-hY-ig8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eec-a5-jgf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sPE-wL-qju">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="BaV-UD-bcm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yD7-as-pce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1506" y="362"/>
+        </scene>
+        <!--Intrinsic-->
+        <scene sceneID="uEC-Ru-iM2">
+            <objects>
+                <viewController id="8bo-kC-fHP" customClass="IntrinsicViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cWl-ST-qyq"/>
+                        <viewControllerLayoutGuide type="bottom" id="e8g-oq-Qka"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jjg-L1-jZu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="140" text="In general, the intrinsic content size simplifies the layout, reducing the number of constraints you need." translatesAutoresizingMaskIntoConstraints="NO" id="WnW-Hr-ULu" customClass="FormTextView">
+                                <rect key="frame" x="40" y="83" width="240" height="140"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" constant="140" id="91f-1m-efF"/>
+                                    <constraint firstAttribute="width" constant="240" id="BKi-oG-iTP"/>
+                                </constraints>
+                                <color key="textColor" red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Intrinsic Content Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pG-Qt-gHx">
+                                <rect key="frame" x="37" y="30" width="246" height="33"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7p-u7-oNR">
+                                <rect key="frame" x="60" y="233" width="200" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Ge5-Qp-1LH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="Hide Keyboard"/>
+                                <connections>
+                                    <action selector="hideKeyboardButtonPressed:" destination="8bo-kC-fHP" eventType="touchUpInside" id="wIU-cD-dvp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h7p-u7-oNR" firstAttribute="centerX" secondItem="Jjg-L1-jZu" secondAttribute="centerX" id="03U-Ex-eFs"/>
+                            <constraint firstItem="WnW-Hr-ULu" firstAttribute="centerX" secondItem="Jjg-L1-jZu" secondAttribute="centerX" id="5ac-I2-geg"/>
+                            <constraint firstItem="WnW-Hr-ULu" firstAttribute="top" secondItem="3pG-Qt-gHx" secondAttribute="bottom" constant="20" id="Bfx-2t-TWg"/>
+                            <constraint firstItem="e8g-oq-Qka" firstAttribute="top" relation="greaterThanOrEqual" secondItem="h7p-u7-oNR" secondAttribute="bottom" constant="253" id="VzR-lg-dPK"/>
+                            <constraint firstItem="3pG-Qt-gHx" firstAttribute="top" secondItem="cWl-ST-qyq" secondAttribute="bottom" constant="10" id="WHP-Z3-o6f"/>
+                            <constraint firstItem="h7p-u7-oNR" firstAttribute="top" secondItem="WnW-Hr-ULu" secondAttribute="bottom" constant="10" id="g67-sp-OTH"/>
+                            <constraint firstItem="3pG-Qt-gHx" firstAttribute="centerX" secondItem="Jjg-L1-jZu" secondAttribute="centerX" id="lQv-qS-0iY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Intrinsic" id="MPx-y9-E4e"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="doneButtonBottomSpaceConstraint" destination="VzR-lg-dPK" id="UOY-tF-d1O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWE-0v-8xW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1506" y="-299"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VqV-Ic-Ljn">
+            <objects>
+                <tabBarController id="O4R-ei-sJe" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="p9M-KW-SmD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8bo-kC-fHP" kind="relationship" relationship="viewControllers" id="mlT-nK-VOz"/>
+                        <segue destination="dfh-DK-H00" kind="relationship" relationship="viewControllers" id="sqj-Oo-XpF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zg6-9G-AHw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686" y="32"/>
+        </scene>
+    </scenes>
+</document>
