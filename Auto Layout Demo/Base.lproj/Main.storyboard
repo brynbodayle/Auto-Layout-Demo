@@ -36,11 +36,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="140" text="In general, the intrinsic content size simplifies the layout, reducing the number of constraints you need." translatesAutoresizingMaskIntoConstraints="NO" id="WnW-Hr-ULu" customClass="FormTextView">
-                                <rect key="frame" x="40" y="83" width="240" height="140"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="998" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="120" text="In general, the intrinsic content size simplifies the layout, reducing the number of constraints you need. However, using" translatesAutoresizingMaskIntoConstraints="NO" id="WnW-Hr-ULu" customClass="FormTextView">
+                                <rect key="frame" x="40" y="83" width="240" height="120"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" constant="140" id="91f-1m-efF"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" constant="120" id="91f-1m-efF"/>
                                     <constraint firstAttribute="width" constant="240" id="BKi-oG-iTP"/>
                                 </constraints>
                                 <color key="textColor" red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,9 +53,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7p-u7-oNR">
-                                <rect key="frame" x="60" y="233" width="200" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="999" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7p-u7-oNR">
+                                <rect key="frame" x="60" y="203" width="200" height="44"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ehp-qj-xIY"/>
                                     <constraint firstAttribute="width" constant="200" id="Ge5-Qp-1LH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -70,12 +71,13 @@
                             <constraint firstItem="h7p-u7-oNR" firstAttribute="centerX" secondItem="Jjg-L1-jZu" secondAttribute="centerX" id="03U-Ex-eFs"/>
                             <constraint firstItem="WnW-Hr-ULu" firstAttribute="centerX" secondItem="Jjg-L1-jZu" secondAttribute="centerX" id="5ac-I2-geg"/>
                             <constraint firstItem="WnW-Hr-ULu" firstAttribute="top" secondItem="3pG-Qt-gHx" secondAttribute="bottom" constant="20" id="Bfx-2t-TWg"/>
-                            <constraint firstItem="e8g-oq-Qka" firstAttribute="top" relation="greaterThanOrEqual" secondItem="h7p-u7-oNR" secondAttribute="bottom" constant="253" id="VzR-lg-dPK"/>
+                            <constraint firstItem="e8g-oq-Qka" firstAttribute="top" relation="greaterThanOrEqual" secondItem="h7p-u7-oNR" secondAttribute="bottom" id="VzR-lg-dPK"/>
                             <constraint firstItem="3pG-Qt-gHx" firstAttribute="top" secondItem="cWl-ST-qyq" secondAttribute="bottom" constant="10" id="WHP-Z3-o6f"/>
-                            <constraint firstItem="h7p-u7-oNR" firstAttribute="top" secondItem="WnW-Hr-ULu" secondAttribute="bottom" constant="10" id="g67-sp-OTH"/>
+                            <constraint firstItem="h7p-u7-oNR" firstAttribute="top" secondItem="WnW-Hr-ULu" secondAttribute="bottom" id="g67-sp-OTH"/>
                             <constraint firstItem="3pG-Qt-gHx" firstAttribute="centerX" secondItem="Jjg-L1-jZu" secondAttribute="centerX" id="lQv-qS-0iY"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <tabBarItem key="tabBarItem" title="Intrinsic" id="MPx-y9-E4e"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>

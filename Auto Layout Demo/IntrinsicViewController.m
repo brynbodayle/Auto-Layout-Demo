@@ -36,7 +36,7 @@
     CGRect keyboardFrameEnd = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
     CGRect keyboardFrame = [self.view convertRect:keyboardFrameEnd fromView:nil];
     
-    CGFloat constraintConstant = CGRectGetHeight(self.view.frame) - CGRectGetMinY(keyboardFrame);
+    CGFloat constraintConstant = CGRectGetHeight(self.view.frame) - [self.bottomLayoutGuide length] - CGRectGetMinY(keyboardFrame);
     
     self.doneButtonBottomSpaceConstraint.constant = constraintConstant;
     [self.view layoutIfNeeded];
