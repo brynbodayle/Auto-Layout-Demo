@@ -14,6 +14,9 @@
 		609D0C8C1C8E2AC0006BF9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609D0C8B1C8E2AC0006BF9FF /* Assets.xcassets */; };
 		609D0C8F1C8E2AC0006BF9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609D0C8D1C8E2AC0006BF9FF /* LaunchScreen.storyboard */; };
 		609D0C991C8E2CF5006BF9FF /* FormTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 609D0C981C8E2CF5006BF9FF /* FormTextView.m */; };
+		60A1A4391C90D3DA0017A744 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A1A4381C90D3DA0017A744 /* Helpers.m */; };
+		60EA6CD31C8F8D3E00E89636 /* SelfSizingCellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6CD21C8F8D3E00E89636 /* SelfSizingCellsViewController.m */; };
+		60EA6CD61C8F8E5200E89636 /* SelfSizingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		609D0C901C8E2AC0006BF9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		609D0C971C8E2CF5006BF9FF /* FormTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTextView.h; sourceTree = "<group>"; };
 		609D0C981C8E2CF5006BF9FF /* FormTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTextView.m; sourceTree = "<group>"; };
+		60A1A4371C90D3DA0017A744 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		60A1A4381C90D3DA0017A744 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		60EA6CD11C8F8D3E00E89636 /* SelfSizingCellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSizingCellsViewController.h; sourceTree = "<group>"; };
+		60EA6CD21C8F8D3E00E89636 /* SelfSizingCellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizingCellsViewController.m; sourceTree = "<group>"; };
+		60EA6CD41C8F8E5200E89636 /* SelfSizingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSizingTableViewCell.h; sourceTree = "<group>"; };
+		60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizingTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +74,14 @@
 				609D0C831C8E2AC0006BF9FF /* AppDelegate.m */,
 				609D0C851C8E2AC0006BF9FF /* IntrinsicViewController.h */,
 				609D0C861C8E2AC0006BF9FF /* IntrinsicViewController.m */,
+				60EA6CD11C8F8D3E00E89636 /* SelfSizingCellsViewController.h */,
+				60EA6CD21C8F8D3E00E89636 /* SelfSizingCellsViewController.m */,
 				609D0C971C8E2CF5006BF9FF /* FormTextView.h */,
 				609D0C981C8E2CF5006BF9FF /* FormTextView.m */,
+				60EA6CD41C8F8E5200E89636 /* SelfSizingTableViewCell.h */,
+				60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */,
+				60A1A4371C90D3DA0017A744 /* Helpers.h */,
+				60A1A4381C90D3DA0017A744 /* Helpers.m */,
 				609D0C881C8E2AC0006BF9FF /* Main.storyboard */,
 				609D0C8B1C8E2AC0006BF9FF /* Assets.xcassets */,
 				609D0C8D1C8E2AC0006BF9FF /* LaunchScreen.storyboard */,
@@ -155,7 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				609D0C871C8E2AC0006BF9FF /* IntrinsicViewController.m in Sources */,
+				60EA6CD31C8F8D3E00E89636 /* SelfSizingCellsViewController.m in Sources */,
 				609D0C991C8E2CF5006BF9FF /* FormTextView.m in Sources */,
+				60EA6CD61C8F8E5200E89636 /* SelfSizingTableViewCell.m in Sources */,
+				60A1A4391C90D3DA0017A744 /* Helpers.m in Sources */,
 				609D0C841C8E2AC0006BF9FF /* AppDelegate.m in Sources */,
 				609D0C811C8E2AC0006BF9FF /* main.m in Sources */,
 			);
@@ -304,6 +322,7 @@
 				609D0C951C8E2AC0006BF9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

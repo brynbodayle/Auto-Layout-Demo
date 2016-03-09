@@ -3,12 +3,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Self-Sizing-->
         <scene sceneID="a2L-Vz-bkB">
             <objects>
-                <viewController id="dfh-DK-H00" sceneMemberID="viewController">
+                <viewController id="dfh-DK-H00" customClass="SelfSizingCellsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dlg-hY-ig8"/>
                         <viewControllerLayoutGuide type="bottom" id="Eec-a5-jgf"/>
@@ -16,9 +17,65 @@
                     <view key="view" contentMode="scaleToFill" id="sPE-wL-qju">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HgZ-QM-3W8">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelfSizingTableViewCell" rowHeight="81" id="oZY-QZ-EiI" customClass="SelfSizingTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="81"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oZY-QZ-EiI" id="92P-nG-mhc">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSU-bk-cIa">
+                                                    <rect key="frame" x="8" y="8" width="584" height="26"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Description Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VwH-vy-3Ve">
+                                                    <rect key="frame" x="8" y="38" width="584" height="34"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="VwH-vy-3Ve" firstAttribute="top" secondItem="JSU-bk-cIa" secondAttribute="bottom" constant="4" id="C7T-Hp-P7v"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="JSU-bk-cIa" secondAttribute="trailing" id="Or0-0a-t80"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="VwH-vy-3Ve" secondAttribute="trailing" id="RUj-aX-xLe"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="JSU-bk-cIa" secondAttribute="leading" id="SBe-n2-iVz"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="VwH-vy-3Ve" secondAttribute="leading" id="gHt-sa-veD"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="VwH-vy-3Ve" secondAttribute="bottom" id="nie-fm-Sj1"/>
+                                                <constraint firstItem="JSU-bk-cIa" firstAttribute="top" secondItem="92P-nG-mhc" secondAttribute="topMargin" id="ozr-XT-G9H"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="VwH-vy-3Ve" id="3mj-PM-Ttf"/>
+                                            <outlet property="titleLabel" destination="JSU-bk-cIa" id="ikg-JN-M60"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="dfh-DK-H00" id="Fvy-Hh-S5V"/>
+                                    <outlet property="delegate" destination="dfh-DK-H00" id="JBf-P1-VWM"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Eec-a5-jgf" firstAttribute="top" secondItem="HgZ-QM-3W8" secondAttribute="bottom" id="OcL-iX-HHv"/>
+                            <constraint firstItem="HgZ-QM-3W8" firstAttribute="leading" secondItem="sPE-wL-qju" secondAttribute="leading" id="dwO-h4-7aU"/>
+                            <constraint firstAttribute="trailing" secondItem="HgZ-QM-3W8" secondAttribute="trailing" id="jiz-AC-lUs"/>
+                            <constraint firstItem="HgZ-QM-3W8" firstAttribute="top" secondItem="dlg-hY-ig8" secondAttribute="bottom" id="nKT-8V-990"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="BaV-UD-bcm"/>
+                    <tabBarItem key="tabBarItem" title="Self-Sizing" id="BaV-UD-bcm"/>
+                    <connections>
+                        <outlet property="tableView" destination="HgZ-QM-3W8" id="gd0-y1-JXp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yD7-as-pce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
