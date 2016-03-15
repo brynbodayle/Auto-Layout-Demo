@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602C66671C92125E00181EEC /* MarginsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602C66661C92125E00181EEC /* MarginsViewController.m */; };
 		609D0C811C8E2AC0006BF9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609D0C801C8E2AC0006BF9FF /* main.m */; };
 		609D0C841C8E2AC0006BF9FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609D0C831C8E2AC0006BF9FF /* AppDelegate.m */; };
 		609D0C871C8E2AC0006BF9FF /* IntrinsicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609D0C861C8E2AC0006BF9FF /* IntrinsicViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		602C66651C92125E00181EEC /* MarginsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarginsViewController.h; sourceTree = "<group>"; };
+		602C66661C92125E00181EEC /* MarginsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarginsViewController.m; sourceTree = "<group>"; };
 		609D0C7C1C8E2AC0006BF9FF /* Auto Layout Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		609D0C801C8E2AC0006BF9FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		609D0C821C8E2AC0006BF9FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602C66611C92124200181EEC /* Margins */ = {
+			isa = PBXGroup;
+			children = (
+				602C66651C92125E00181EEC /* MarginsViewController.h */,
+				602C66661C92125E00181EEC /* MarginsViewController.m */,
+			);
+			name = Margins;
+			sourceTree = "<group>";
+		};
 		609D0C731C8E2AC0006BF9FF = {
 			isa = PBXGroup;
 			children = (
@@ -72,14 +84,9 @@
 			children = (
 				609D0C821C8E2AC0006BF9FF /* AppDelegate.h */,
 				609D0C831C8E2AC0006BF9FF /* AppDelegate.m */,
-				609D0C851C8E2AC0006BF9FF /* IntrinsicViewController.h */,
-				609D0C861C8E2AC0006BF9FF /* IntrinsicViewController.m */,
-				60EA6CD11C8F8D3E00E89636 /* SelfSizingCellsViewController.h */,
-				60EA6CD21C8F8D3E00E89636 /* SelfSizingCellsViewController.m */,
-				609D0C971C8E2CF5006BF9FF /* FormTextView.h */,
-				609D0C981C8E2CF5006BF9FF /* FormTextView.m */,
-				60EA6CD41C8F8E5200E89636 /* SelfSizingTableViewCell.h */,
-				60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */,
+				60A1A43A1C90D6B90017A744 /* Intrinsic */,
+				60A1A43B1C90D6BF0017A744 /* Self-Sizing */,
+				602C66611C92124200181EEC /* Margins */,
 				60A1A4371C90D3DA0017A744 /* Helpers.h */,
 				60A1A4381C90D3DA0017A744 /* Helpers.m */,
 				609D0C881C8E2AC0006BF9FF /* Main.storyboard */,
@@ -97,6 +104,28 @@
 				609D0C801C8E2AC0006BF9FF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60A1A43A1C90D6B90017A744 /* Intrinsic */ = {
+			isa = PBXGroup;
+			children = (
+				609D0C851C8E2AC0006BF9FF /* IntrinsicViewController.h */,
+				609D0C861C8E2AC0006BF9FF /* IntrinsicViewController.m */,
+				609D0C971C8E2CF5006BF9FF /* FormTextView.h */,
+				609D0C981C8E2CF5006BF9FF /* FormTextView.m */,
+			);
+			name = Intrinsic;
+			sourceTree = "<group>";
+		};
+		60A1A43B1C90D6BF0017A744 /* Self-Sizing */ = {
+			isa = PBXGroup;
+			children = (
+				60EA6CD11C8F8D3E00E89636 /* SelfSizingCellsViewController.h */,
+				60EA6CD21C8F8D3E00E89636 /* SelfSizingCellsViewController.m */,
+				60EA6CD41C8F8E5200E89636 /* SelfSizingTableViewCell.h */,
+				60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */,
+			);
+			name = "Self-Sizing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +200,7 @@
 			files = (
 				609D0C871C8E2AC0006BF9FF /* IntrinsicViewController.m in Sources */,
 				60EA6CD31C8F8D3E00E89636 /* SelfSizingCellsViewController.m in Sources */,
+				602C66671C92125E00181EEC /* MarginsViewController.m in Sources */,
 				609D0C991C8E2CF5006BF9FF /* FormTextView.m in Sources */,
 				60EA6CD61C8F8E5200E89636 /* SelfSizingTableViewCell.m in Sources */,
 				60A1A4391C90D3DA0017A744 /* Helpers.m in Sources */,
