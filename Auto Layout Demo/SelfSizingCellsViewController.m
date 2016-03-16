@@ -26,7 +26,7 @@ static const NSUInteger SelfSizingCellsViewControllerNumberOfItems = 10;
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
+        
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.estimatedRowHeight = 81.0f;
     
