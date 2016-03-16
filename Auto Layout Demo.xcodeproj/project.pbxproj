@@ -18,6 +18,7 @@
 		60A1A4391C90D3DA0017A744 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A1A4381C90D3DA0017A744 /* Helpers.m */; };
 		60EA6CD31C8F8D3E00E89636 /* SelfSizingCellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6CD21C8F8D3E00E89636 /* SelfSizingCellsViewController.m */; };
 		60EA6CD61C8F8E5200E89636 /* SelfSizingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */; };
+		60F463291C99A6A100470BD5 /* PrioritiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F463281C99A6A100470BD5 /* PrioritiesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		60EA6CD21C8F8D3E00E89636 /* SelfSizingCellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizingCellsViewController.m; sourceTree = "<group>"; };
 		60EA6CD41C8F8E5200E89636 /* SelfSizingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSizingTableViewCell.h; sourceTree = "<group>"; };
 		60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizingTableViewCell.m; sourceTree = "<group>"; };
+		60F463271C99A6A100470BD5 /* PrioritiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrioritiesViewController.h; sourceTree = "<group>"; };
+		60F463281C99A6A100470BD5 /* PrioritiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrioritiesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				60A1A43A1C90D6B90017A744 /* Intrinsic */,
 				60A1A43B1C90D6BF0017A744 /* Self-Sizing */,
 				602C66611C92124200181EEC /* Margins */,
+				60F463261C99A64000470BD5 /* Priorities */,
 				60A1A4371C90D3DA0017A744 /* Helpers.h */,
 				60A1A4381C90D3DA0017A744 /* Helpers.m */,
 				609D0C881C8E2AC0006BF9FF /* Main.storyboard */,
@@ -126,6 +130,15 @@
 				60EA6CD51C8F8E5200E89636 /* SelfSizingTableViewCell.m */,
 			);
 			name = "Self-Sizing";
+			sourceTree = "<group>";
+		};
+		60F463261C99A64000470BD5 /* Priorities */ = {
+			isa = PBXGroup;
+			children = (
+				60F463271C99A6A100470BD5 /* PrioritiesViewController.h */,
+				60F463281C99A6A100470BD5 /* PrioritiesViewController.m */,
+			);
+			name = Priorities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +219,7 @@
 				60A1A4391C90D3DA0017A744 /* Helpers.m in Sources */,
 				609D0C841C8E2AC0006BF9FF /* AppDelegate.m in Sources */,
 				609D0C811C8E2AC0006BF9FF /* main.m in Sources */,
+				60F463291C99A6A100470BD5 /* PrioritiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

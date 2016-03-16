@@ -43,7 +43,7 @@
 
 - (void)applyStyling {
     
-    self.backgroundColor = [UIColor colorWithWhite:0.980 alpha:1.000];
+    self.backgroundColor = [UIColor whiteColor];
     
     self.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.layer.borderWidth = 1.0f/[UIScreen mainScreen].scale;
