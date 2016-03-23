@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		602C66671C92125E00181EEC /* MarginsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602C66661C92125E00181EEC /* MarginsViewController.m */; };
+		608D3D021CA1E0B10020E338 /* ScrollViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D3D011CA1E0B10020E338 /* ScrollViewsViewController.m */; };
 		6097A1851C9CA33E0098AF3B /* GuidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A1841C9CA33E0098AF3B /* GuidesViewController.m */; };
 		609D0C811C8E2AC0006BF9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609D0C801C8E2AC0006BF9FF /* main.m */; };
 		609D0C841C8E2AC0006BF9FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609D0C831C8E2AC0006BF9FF /* AppDelegate.m */; };
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		602C66651C92125E00181EEC /* MarginsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarginsViewController.h; sourceTree = "<group>"; };
 		602C66661C92125E00181EEC /* MarginsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarginsViewController.m; sourceTree = "<group>"; };
+		608D3D001CA1E0B10020E338 /* ScrollViewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewsViewController.h; sourceTree = "<group>"; };
+		608D3D011CA1E0B10020E338 /* ScrollViewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewsViewController.m; sourceTree = "<group>"; };
 		6097A1831C9CA33E0098AF3B /* GuidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidesViewController.h; sourceTree = "<group>"; };
 		6097A1841C9CA33E0098AF3B /* GuidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidesViewController.m; sourceTree = "<group>"; };
 		609D0C7C1C8E2AC0006BF9FF /* Auto Layout Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +72,15 @@
 			name = Margins;
 			sourceTree = "<group>";
 		};
+		608D3CFF1CA1E0930020E338 /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				608D3D001CA1E0B10020E338 /* ScrollViewsViewController.h */,
+				608D3D011CA1E0B10020E338 /* ScrollViewsViewController.m */,
+			);
+			name = ScrollViews;
+			sourceTree = "<group>";
+		};
 		609D0C731C8E2AC0006BF9FF = {
 			isa = PBXGroup;
 			children = (
@@ -90,17 +102,18 @@
 			children = (
 				609D0C821C8E2AC0006BF9FF /* AppDelegate.h */,
 				609D0C831C8E2AC0006BF9FF /* AppDelegate.m */,
-				60A1A43A1C90D6B90017A744 /* Intrinsic */,
-				60A1A43B1C90D6BF0017A744 /* Self-Sizing */,
-				602C66611C92124200181EEC /* Margins */,
-				60F463261C99A64000470BD5 /* Priorities */,
+				609D0C8B1C8E2AC0006BF9FF /* Assets.xcassets */,
 				60E5FFCF1C9B4376008E20E8 /* Guides */,
 				60A1A4371C90D3DA0017A744 /* Helpers.h */,
 				60A1A4381C90D3DA0017A744 /* Helpers.m */,
-				609D0C881C8E2AC0006BF9FF /* Main.storyboard */,
-				609D0C8B1C8E2AC0006BF9FF /* Assets.xcassets */,
-				609D0C8D1C8E2AC0006BF9FF /* LaunchScreen.storyboard */,
 				609D0C901C8E2AC0006BF9FF /* Info.plist */,
+				60A1A43A1C90D6B90017A744 /* Intrinsic */,
+				609D0C8D1C8E2AC0006BF9FF /* LaunchScreen.storyboard */,
+				609D0C881C8E2AC0006BF9FF /* Main.storyboard */,
+				602C66611C92124200181EEC /* Margins */,
+				60F463261C99A64000470BD5 /* Priorities */,
+				608D3CFF1CA1E0930020E338 /* ScrollViews */,
+				60A1A43B1C90D6BF0017A744 /* Self-Sizing */,
 				609D0C7F1C8E2AC0006BF9FF /* Supporting Files */,
 			);
 			path = "Auto Layout Demo";
@@ -227,6 +240,7 @@
 				609D0C871C8E2AC0006BF9FF /* IntrinsicViewController.m in Sources */,
 				60EA6CD31C8F8D3E00E89636 /* SelfSizingCellsViewController.m in Sources */,
 				602C66671C92125E00181EEC /* MarginsViewController.m in Sources */,
+				608D3D021CA1E0B10020E338 /* ScrollViewsViewController.m in Sources */,
 				609D0C991C8E2CF5006BF9FF /* FormTextView.m in Sources */,
 				60EA6CD61C8F8E5200E89636 /* SelfSizingTableViewCell.m in Sources */,
 				6097A1851C9CA33E0098AF3B /* GuidesViewController.m in Sources */,
