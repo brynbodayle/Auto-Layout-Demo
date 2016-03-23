@@ -26,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="oZY-QZ-EiI" id="92P-nG-mhc">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="80.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="81"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Title Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSU-bk-cIa">
@@ -534,8 +534,8 @@ Priority Horizontal</string>
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="AVIATO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5V-Sf-BqR">
-                                                <rect key="frame" x="227" y="126" width="146" height="55"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="40"/>
+                                                <rect key="frame" x="236" y="141" width="128" height="48"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="35"/>
                                                 <color key="textColor" red="0.16078431369999999" green="0.50196078430000002" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=compact">
@@ -608,10 +608,10 @@ Priority Horizontal</string>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstItem="HPB-mh-taU" firstAttribute="centerY" secondItem="dOl-dm-F3L" secondAttribute="centerY" id="4gq-KF-f5t"/>
-                                                    <constraint firstAttribute="bottomMargin" secondItem="LJa-Np-SvJ" secondAttribute="bottom" constant="-9" id="5Tm-6y-w3n">
+                                                    <constraint firstAttribute="bottom" secondItem="LJa-Np-SvJ" secondAttribute="bottom" constant="-9" id="5Tm-6y-w3n">
                                                         <variation key="heightClass=compact" constant="0.0"/>
                                                     </constraint>
-                                                    <constraint firstItem="dOl-dm-F3L" firstAttribute="top" secondItem="352-rJ-OMq" secondAttribute="topMargin" id="66h-z2-eMl"/>
+                                                    <constraint firstItem="dOl-dm-F3L" firstAttribute="top" secondItem="352-rJ-OMq" secondAttribute="top" id="66h-z2-eMl"/>
                                                     <constraint firstItem="LJa-Np-SvJ" firstAttribute="top" secondItem="dOl-dm-F3L" secondAttribute="bottom" constant="8" id="7Ek-Xt-0Nc"/>
                                                     <constraint firstAttribute="bottomMargin" secondItem="pgN-OA-ASY" secondAttribute="bottom" constant="55" id="8EB-5f-pJs">
                                                         <variation key="heightClass=compact" constant="0.0"/>
@@ -620,9 +620,9 @@ Priority Horizontal</string>
                                                     <constraint firstItem="LJa-Np-SvJ" firstAttribute="leading" secondItem="dOl-dm-F3L" secondAttribute="leading" id="HVz-3i-fVc"/>
                                                     <constraint firstItem="LJa-Np-SvJ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dOl-dm-F3L" secondAttribute="bottom" constant="2" id="Hf1-97-Yrb"/>
                                                     <constraint firstItem="pgN-OA-ASY" firstAttribute="leading" secondItem="352-rJ-OMq" secondAttribute="leadingMargin" id="L9X-0F-UHj"/>
-                                                    <constraint firstAttribute="topMargin" secondItem="dOl-dm-F3L" secondAttribute="top" id="NBc-wi-JSA"/>
+                                                    <constraint firstAttribute="top" secondItem="dOl-dm-F3L" secondAttribute="top" id="NBc-wi-JSA"/>
                                                     <constraint firstAttribute="trailingMargin" secondItem="Xgy-wF-Ld1" secondAttribute="trailing" id="OnM-dP-7QA"/>
-                                                    <constraint firstAttribute="bottomMargin" secondItem="Xgy-wF-Ld1" secondAttribute="bottom" id="RAN-PW-7FU"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Xgy-wF-Ld1" secondAttribute="bottom" id="RAN-PW-7FU"/>
                                                     <constraint firstItem="HPB-mh-taU" firstAttribute="centerY" secondItem="dOl-dm-F3L" secondAttribute="centerY" id="RYM-2N-RAe"/>
                                                     <constraint firstItem="HPB-mh-taU" firstAttribute="leading" secondItem="352-rJ-OMq" secondAttribute="leadingMargin" constant="-5" id="S30-ZG-CUa">
                                                         <variation key="heightClass=compact" constant="0.0"/>
@@ -632,7 +632,7 @@ Priority Horizontal</string>
                                                     <constraint firstItem="Xgy-wF-Ld1" firstAttribute="leading" secondItem="dOl-dm-F3L" secondAttribute="trailing" constant="144" id="Yiz-jW-jV0">
                                                         <variation key="heightClass=compact" constant="16"/>
                                                     </constraint>
-                                                    <constraint firstItem="Xgy-wF-Ld1" firstAttribute="top" secondItem="352-rJ-OMq" secondAttribute="topMargin" constant="-1" id="aiS-eU-7Tq">
+                                                    <constraint firstItem="Xgy-wF-Ld1" firstAttribute="top" secondItem="352-rJ-OMq" secondAttribute="top" constant="-1" id="aiS-eU-7Tq">
                                                         <variation key="heightClass=compact" constant="0.0"/>
                                                     </constraint>
                                                     <constraint firstItem="pgN-OA-ASY" firstAttribute="centerY" secondItem="LJa-Np-SvJ" secondAttribute="centerY" id="dD9-jM-KXF"/>
@@ -656,14 +656,14 @@ Priority Horizontal</string>
                                                         <exclude reference="8EB-5f-pJs"/>
                                                         <exclude reference="Xq6-At-TaU"/>
                                                         <exclude reference="xhU-WT-XBd"/>
-                                                        <exclude reference="Yiz-jW-jV0"/>
-                                                        <exclude reference="aiS-eU-7Tq"/>
                                                         <exclude reference="NBc-wi-JSA"/>
                                                         <exclude reference="g81-4m-zcu"/>
                                                         <exclude reference="5Tm-6y-w3n"/>
                                                         <exclude reference="7Ek-Xt-0Nc"/>
                                                         <exclude reference="HVz-3i-fVc"/>
                                                         <exclude reference="wnf-aU-yzY"/>
+                                                        <exclude reference="Yiz-jW-jV0"/>
+                                                        <exclude reference="aiS-eU-7Tq"/>
                                                     </mask>
                                                 </variation>
                                                 <variation key="heightClass=compact">
@@ -676,13 +676,6 @@ Priority Horizontal</string>
                                                         <include reference="Xq6-At-TaU"/>
                                                         <exclude reference="dD9-jM-KXF"/>
                                                         <include reference="xhU-WT-XBd"/>
-                                                        <exclude reference="OnM-dP-7QA"/>
-                                                        <exclude reference="RAN-PW-7FU"/>
-                                                        <exclude reference="XOH-QL-80j"/>
-                                                        <include reference="Yiz-jW-jV0"/>
-                                                        <include reference="aiS-eU-7Tq"/>
-                                                        <exclude reference="iaB-XT-Z11"/>
-                                                        <exclude reference="nog-g9-me6"/>
                                                         <exclude reference="66h-z2-eMl"/>
                                                         <exclude reference="D2F-p4-9uc"/>
                                                         <include reference="NBc-wi-JSA"/>
@@ -697,14 +690,21 @@ Priority Horizontal</string>
                                                         <exclude reference="qbN-ax-elE"/>
                                                         <exclude reference="r62-R9-9F7"/>
                                                         <include reference="wnf-aU-yzY"/>
+                                                        <exclude reference="OnM-dP-7QA"/>
+                                                        <exclude reference="RAN-PW-7FU"/>
+                                                        <exclude reference="XOH-QL-80j"/>
+                                                        <include reference="Yiz-jW-jV0"/>
+                                                        <include reference="aiS-eU-7Tq"/>
+                                                        <exclude reference="iaB-XT-Z11"/>
+                                                        <exclude reference="nog-g9-me6"/>
                                                     </mask>
                                                 </variation>
                                                 <variation key="heightClass=compact-widthClass=compact" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="72" y="81" width="256" height="130"/>
                                                 </variation>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8Z-Lp-vjP">
-                                                <rect key="frame" x="272" y="491" width="57" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDQ-1u-Aoa">
+                                                <rect key="frame" x="180" y="490" width="240" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="Register"/>
                                                 <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
@@ -714,7 +714,8 @@ Priority Horizontal</string>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="Y8Z-Lp-vjP" firstAttribute="width" secondItem="Xgy-wF-Ld1" secondAttribute="width" id="6ee-XO-ajt"/>
+                                            <constraint firstItem="cDQ-1u-Aoa" firstAttribute="width" secondItem="Xgy-wF-Ld1" secondAttribute="width" id="1lh-30-6q0"/>
+                                            <constraint firstItem="cDQ-1u-Aoa" firstAttribute="height" secondItem="Xgy-wF-Ld1" secondAttribute="height" id="5cp-YP-qou"/>
                                             <constraint firstItem="352-rJ-OMq" firstAttribute="centerX" secondItem="1Wj-X8-SZg" secondAttribute="centerX" id="9cJ-SG-sW5"/>
                                             <constraint firstItem="352-rJ-OMq" firstAttribute="leading" secondItem="U5V-Sf-BqR" secondAttribute="trailing" constant="35" id="9ex-Cm-Ys7">
                                                 <variation key="heightClass=compact" constant="20"/>
@@ -723,20 +724,21 @@ Priority Horizontal</string>
                                                 <variation key="heightClass=compact" constant="20"/>
                                             </constraint>
                                             <constraint firstItem="U5V-Sf-BqR" firstAttribute="centerY" secondItem="352-rJ-OMq" secondAttribute="centerY" id="Bgx-7P-WWI"/>
-                                            <constraint firstItem="Y8Z-Lp-vjP" firstAttribute="centerX" secondItem="1Wj-X8-SZg" secondAttribute="centerX" id="NTO-ya-jMW"/>
-                                            <constraint firstItem="Y8Z-Lp-vjP" firstAttribute="height" secondItem="Xgy-wF-Ld1" secondAttribute="height" id="OM4-Hb-Fhr"/>
-                                            <constraint firstItem="Y8Z-Lp-vjP" firstAttribute="top" relation="greaterThanOrEqual" secondItem="352-rJ-OMq" secondAttribute="bottom" id="Zlp-9e-oGT"/>
+                                            <constraint firstAttribute="bottom" secondItem="cDQ-1u-Aoa" secondAttribute="bottom" constant="16" id="C4X-BY-I2I"/>
+                                            <constraint firstItem="cDQ-1u-Aoa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="352-rJ-OMq" secondAttribute="bottom" id="DNe-JR-vjm"/>
+                                            <constraint firstItem="cDQ-1u-Aoa" firstAttribute="centerX" secondItem="1Wj-X8-SZg" secondAttribute="centerX" id="Huw-No-Mtb"/>
+                                            <constraint firstItem="cDQ-1u-Aoa" firstAttribute="top" secondItem="Xgy-wF-Ld1" secondAttribute="bottom" id="Mqc-Xd-LZu">
+                                                <variation key="heightClass=compact" constant="8"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailingMargin" secondItem="Xgy-wF-Ld1" secondAttribute="trailing" constant="32" id="bXj-nR-ukg">
                                                 <variation key="heightClass=compact" constant="0.0"/>
                                             </constraint>
-                                            <constraint firstItem="352-rJ-OMq" firstAttribute="top" secondItem="U5V-Sf-BqR" secondAttribute="bottom" constant="8" id="d4C-2r-NhO"/>
+                                            <constraint firstItem="352-rJ-OMq" firstAttribute="top" secondItem="U5V-Sf-BqR" secondAttribute="bottom" id="d4C-2r-NhO"/>
                                             <constraint firstItem="352-rJ-OMq" firstAttribute="centerY" secondItem="1Wj-X8-SZg" secondAttribute="centerY" priority="750" constant="-22" id="dxc-cb-0kN"/>
-                                            <constraint firstItem="Y8Z-Lp-vjP" firstAttribute="top" secondItem="Xgy-wF-Ld1" secondAttribute="bottom" constant="8" id="gk2-RE-6pp"/>
                                             <constraint firstItem="U5V-Sf-BqR" firstAttribute="leading" secondItem="1Wj-X8-SZg" secondAttribute="leading" constant="242" id="kQB-PT-qQE">
                                                 <variation key="heightClass=compact" constant="20"/>
                                             </constraint>
-                                            <constraint firstItem="Y8Z-Lp-vjP" firstAttribute="centerX" secondItem="Xgy-wF-Ld1" secondAttribute="centerX" id="p2K-Ef-LN1"/>
-                                            <constraint firstAttribute="bottom" secondItem="Y8Z-Lp-vjP" secondAttribute="bottom" constant="15" id="qQK-hx-Zr7"/>
+                                            <constraint firstItem="cDQ-1u-Aoa" firstAttribute="centerX" secondItem="Xgy-wF-Ld1" secondAttribute="centerX" id="njJ-M9-EI0"/>
                                             <constraint firstItem="U5V-Sf-BqR" firstAttribute="centerX" secondItem="352-rJ-OMq" secondAttribute="centerX" id="sqY-Pl-jAF"/>
                                             <constraint firstItem="352-rJ-OMq" firstAttribute="top" secondItem="1Wj-X8-SZg" secondAttribute="top" constant="181" id="xIe-wS-O74">
                                                 <variation key="heightClass=compact" constant="5"/>
@@ -744,37 +746,38 @@ Priority Horizontal</string>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="Bgx-7P-WWI"/>
-                                                <exclude reference="kQB-PT-qQE"/>
                                                 <exclude reference="9ex-Cm-Ys7"/>
                                                 <exclude reference="BBw-Jc-D94"/>
                                                 <exclude reference="xIe-wS-O74"/>
+                                                <exclude reference="Bgx-7P-WWI"/>
+                                                <exclude reference="kQB-PT-qQE"/>
                                                 <exclude reference="bXj-nR-ukg"/>
-                                                <exclude reference="6ee-XO-ajt"/>
-                                                <exclude reference="OM4-Hb-Fhr"/>
-                                                <exclude reference="gk2-RE-6pp"/>
-                                                <exclude reference="p2K-Ef-LN1"/>
+                                                <exclude reference="Mqc-Xd-LZu"/>
+                                                <exclude reference="njJ-M9-EI0"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=compact">
+                                            <mask key="subviews">
+                                                <include reference="cDQ-1u-Aoa"/>
+                                            </mask>
                                             <mask key="constraints">
-                                                <include reference="Bgx-7P-WWI"/>
-                                                <include reference="kQB-PT-qQE"/>
-                                                <exclude reference="sqY-Pl-jAF"/>
                                                 <exclude reference="9cJ-SG-sW5"/>
                                                 <include reference="9ex-Cm-Ys7"/>
                                                 <include reference="BBw-Jc-D94"/>
                                                 <exclude reference="d4C-2r-NhO"/>
                                                 <exclude reference="dxc-cb-0kN"/>
                                                 <include reference="xIe-wS-O74"/>
+                                                <include reference="Bgx-7P-WWI"/>
+                                                <include reference="kQB-PT-qQE"/>
+                                                <exclude reference="sqY-Pl-jAF"/>
                                                 <include reference="bXj-nR-ukg"/>
-                                                <include reference="6ee-XO-ajt"/>
-                                                <exclude reference="NTO-ya-jMW"/>
-                                                <include reference="OM4-Hb-Fhr"/>
-                                                <exclude reference="Zlp-9e-oGT"/>
-                                                <include reference="gk2-RE-6pp"/>
-                                                <include reference="p2K-Ef-LN1"/>
-                                                <exclude reference="qQK-hx-Zr7"/>
+                                                <include reference="1lh-30-6q0"/>
+                                                <include reference="5cp-YP-qou"/>
+                                                <exclude reference="C4X-BY-I2I"/>
+                                                <exclude reference="DNe-JR-vjm"/>
+                                                <exclude reference="Huw-No-Mtb"/>
+                                                <include reference="Mqc-Xd-LZu"/>
+                                                <include reference="njJ-M9-EI0"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -813,8 +816,7 @@ Priority Horizontal</string>
                     <connections>
                         <outlet property="logoLabel" destination="U5V-Sf-BqR" id="DGX-sF-BCE"/>
                         <outlet property="logoTopSpaceToScrollViewConstraint" destination="xdc-dy-5xK" id="Orp-Sn-Vhp"/>
-                        <outlet property="registerButton" destination="Y8Z-Lp-vjP" id="axJ-re-Lfb"/>
-                        <outlet property="registerButtonBottomSpaceConstraint" destination="qQK-hx-Zr7" id="pLp-CX-zwY"/>
+                        <outlet property="registerButtonBottomSpaceConstraint" destination="C4X-BY-I2I" id="RbL-jh-5iN"/>
                         <outlet property="scrollView" destination="A2n-hx-min" id="E6v-LF-IEK"/>
                     </connections>
                 </viewController>
@@ -891,7 +893,7 @@ Priority Horizontal</string>
                                         <rect key="frame" x="0.0" y="35" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FKG-ne-g6V" id="Lkb-d4-5YW">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intrinsic Content Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avw-zG-Vps">
@@ -916,7 +918,7 @@ Priority Horizontal</string>
                                         <rect key="frame" x="0.0" y="79" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NHs-Fo-kSy" id="960-iA-B5q">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Self-Sizing UITableViewCells" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8H-xs-sWF">
@@ -941,7 +943,7 @@ Priority Horizontal</string>
                                         <rect key="frame" x="0.0" y="123" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h4w-Xi-G25" id="DxQ-zp-24u">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Layout Margins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9o-Uz-eIO">
@@ -970,7 +972,7 @@ Priority Horizontal</string>
                                         <rect key="frame" x="0.0" y="203" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QhR-Ou-m9g" id="dao-WW-K6F">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIScrollViews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnE-ww-hpq">
@@ -995,7 +997,7 @@ Priority Horizontal</string>
                                         <rect key="frame" x="0.0" y="247" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KF6-7c-AUN" id="Sxv-pi-QiO">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resistance/Hugging Priorities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1j-gd-FZD">
@@ -1020,7 +1022,7 @@ Priority Horizontal</string>
                                         <rect key="frame" x="0.0" y="291" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8jr-eo-d0s" id="YxR-Ru-RX1">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Layout Guides &amp; Layout Anchors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3u-Ja-8bX">

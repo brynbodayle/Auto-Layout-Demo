@@ -103,6 +103,7 @@ static BOOL ScrollViewsViewControllerLandscapeLayoutTraitCollection(UITraitColle
         viewUpdates = ^(id <UIViewControllerTransitionCoordinatorContext>context){
             
             [self updateLayoutForKeyboardFrameIfNeeded];
+            [self.view layoutIfNeeded];
         };
     }
     
@@ -122,7 +123,7 @@ static BOOL ScrollViewsViewControllerLandscapeLayoutTraitCollection(UITraitColle
        
         CGFloat constraintConstant = CGRectGetHeight(self.view.frame) - [self.bottomLayoutGuide length] - CGRectGetMinY(self.keyboardFrame);
         
-        self.registerButtonBottomSpaceConstraint.constant = ScrollViewsViewControllerVerticalMargin + MAX(constraintConstant, 0.0f);
+        self.registerButtonBottomSpaceConstraint.constant = MAX(constraintConstant, 0.0f);
     }
     else {
         
