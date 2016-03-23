@@ -554,7 +554,7 @@ Priority Horizontal</string>
                                                             <constraint firstAttribute="width" priority="750" constant="150" id="G6i-Pd-SMx"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                                         <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
                                                             <rect key="frame" x="103" y="8" width="150" height="30"/>
                                                         </variation>
@@ -741,7 +741,7 @@ Priority Horizontal</string>
                                             <constraint firstItem="cDQ-1u-Aoa" firstAttribute="centerX" secondItem="Xgy-wF-Ld1" secondAttribute="centerX" id="njJ-M9-EI0"/>
                                             <constraint firstItem="U5V-Sf-BqR" firstAttribute="centerX" secondItem="352-rJ-OMq" secondAttribute="centerX" id="sqY-Pl-jAF"/>
                                             <constraint firstItem="352-rJ-OMq" firstAttribute="top" secondItem="1Wj-X8-SZg" secondAttribute="top" constant="181" id="xIe-wS-O74">
-                                                <variation key="heightClass=compact" constant="5"/>
+                                                <variation key="heightClass=compact" constant="30"/>
                                             </constraint>
                                         </constraints>
                                         <variation key="default">

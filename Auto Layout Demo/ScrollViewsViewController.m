@@ -121,7 +121,7 @@ static BOOL ScrollViewsViewControllerLandscapeLayoutTraitCollection(UITraitColle
     
     if(keyboardShowing) {
        
-        CGFloat constraintConstant = CGRectGetHeight(self.view.frame) - [self.bottomLayoutGuide length] - CGRectGetMinY(self.keyboardFrame);
+        CGFloat constraintConstant = CGRectGetHeight(self.view.frame) - [self.bottomLayoutGuide length] - CGRectGetMinY(self.keyboardFrame) + ScrollViewsViewControllerVerticalMargin;
         
         self.registerButtonBottomSpaceConstraint.constant = MAX(constraintConstant, 0.0f);
     }
