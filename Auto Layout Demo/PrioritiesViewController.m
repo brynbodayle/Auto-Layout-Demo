@@ -14,6 +14,8 @@
 @property (strong, nonatomic) IBOutlet UISlider *containerViewWidthSlider;
 @property (strong, nonatomic) IBOutlet UILabel *containerViewWidthLabel;
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *containerViewWidthConstraint;
+@property (nonatomic, strong) IBOutletCollection(UIView) NSArray *huggingViews;
+@property (nonatomic, strong) IBOutletCollection(UIView) NSArray *compressionViews;
 
 @end
 
@@ -49,6 +51,23 @@
     
     self.containerViewWidthConstraint.constant = roundf(sender.value);
     [self.view updateConstraintsIfNeeded];
+}
+
+/*Toggling views for demonstration purposes*/
+- (IBAction)tapGestureRecognized:(UITapGestureRecognizer *)sender {
+    
+    UIView *compressionView = self.compressionViews.firstObject;
+
+    [self toggleViews:self.huggingViews hidden:compressionView.hidden];
+    [self toggleViews:self.compressionViews hidden:!compressionView.hidden];
+}
+
+- (void)toggleViews:(NSArray *)views hidden:(BOOL)hidden {
+    
+    for(UIView *view in views) {
+        
+        view.hidden = hidden;
+    }
 }
 
 @end
