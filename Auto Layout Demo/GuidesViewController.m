@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *southLabel;
 @property (strong, nonatomic) IBOutlet UILabel *eastLabel;
 @property (strong, nonatomic) IBOutlet UILabel *westLabel;
+
 @property (strong, nonatomic) IBOutlet UILabel *scaleLabel;
 @property (strong, nonatomic) IBOutlet UISlider *scaleSlider;
 @property (strong, nonatomic) IBOutlet UIView *containerView;
@@ -38,8 +39,14 @@
     UILayoutGuide *centerLayoutGuide = [[UILayoutGuide alloc] init];
     [self.containerView addLayoutGuide:centerLayoutGuide];
     
+    
     self.centerLayoutGuideWidthConstraint = [centerLayoutGuide.widthAnchor constraintEqualToConstant:50.0f];
     self.centerLayoutGuideWidthConstraint.active = YES;
+
+    /* Equivalent code without using layout anchors.
+    self.centerLayoutGuideWidthConstraint = [NSLayoutConstraint constraintWithItem:centerLayoutGuide attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:50.0f];
+    [self.containerView addConstraint:self.centerLayoutGuideWidthConstraint];
+     */
     
     self.centerLayoutGuideHeightConstraint = [centerLayoutGuide.heightAnchor constraintEqualToConstant:50.0f];
     self.centerLayoutGuideHeightConstraint.active = YES;
