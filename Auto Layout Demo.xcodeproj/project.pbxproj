@@ -102,18 +102,17 @@
 			children = (
 				609D0C821C8E2AC0006BF9FF /* AppDelegate.h */,
 				609D0C831C8E2AC0006BF9FF /* AppDelegate.m */,
-				609D0C8B1C8E2AC0006BF9FF /* Assets.xcassets */,
-				60E5FFCF1C9B4376008E20E8 /* Guides */,
 				60A1A4371C90D3DA0017A744 /* Helpers.h */,
 				60A1A4381C90D3DA0017A744 /* Helpers.m */,
-				609D0C901C8E2AC0006BF9FF /* Info.plist */,
+				60F463261C99A64000470BD5 /* Priorities */,
 				60A1A43A1C90D6B90017A744 /* Intrinsic */,
+				60A1A43B1C90D6BF0017A744 /* Self-Sizing */,
+				602C66611C92124200181EEC /* Margins */,
+				60E5FFCF1C9B4376008E20E8 /* Guides */,
+				608D3CFF1CA1E0930020E338 /* ScrollViews */,
+				609D0C8B1C8E2AC0006BF9FF /* Assets.xcassets */,
 				609D0C8D1C8E2AC0006BF9FF /* LaunchScreen.storyboard */,
 				609D0C881C8E2AC0006BF9FF /* Main.storyboard */,
-				602C66611C92124200181EEC /* Margins */,
-				60F463261C99A64000470BD5 /* Priorities */,
-				608D3CFF1CA1E0930020E338 /* ScrollViews */,
-				60A1A43B1C90D6BF0017A744 /* Self-Sizing */,
 				609D0C7F1C8E2AC0006BF9FF /* Supporting Files */,
 			);
 			path = "Auto Layout Demo";
@@ -122,6 +121,7 @@
 		609D0C7F1C8E2AC0006BF9FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				609D0C901C8E2AC0006BF9FF /* Info.plist */,
 				609D0C801C8E2AC0006BF9FF /* main.m */,
 			);
 			name = "Supporting Files";
