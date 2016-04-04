@@ -12,12 +12,12 @@ A demo project for my Nashville CocoaHeads talk entitled "Auto Layout in Practic
 - Using size classes and constraints
 
 
-## Talk
+## Talk Video
 
 The video for this talk can be viewed on the Nashville CocoaHeads YouTube channel here:
 https://www.youtube.com/watch?v=6AX1qdu8YPM
 
-## Need help?
+## Need Help?
 
 If you have any questions or would like to see another example added to this project of an Auto Layout concept feel free to make an issue or contact me directly.
 
